@@ -26,7 +26,7 @@ import traceback
 
 HOME_DIR = os.path.split(os.path.realpath(__file__))[0]
 CONFIG_DIR = '/'.join([HOME_DIR, 'config'])
-FATE_FLOW_PATH = HOME_DIR + "/../../fate_flow/fate_flow_client.py"
+FATE_FLOW_PATH = HOME_DIR + "/../../../python/fate_flow/fate_flow_client.py"
 UPLOAD_PATH = HOME_DIR + "/upload_data.json"
 
 GUEST = 'guest'
